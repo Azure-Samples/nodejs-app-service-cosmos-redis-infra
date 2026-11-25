@@ -1,1 +1,6 @@
 .azure/
+
+# Local environment files can contain database credentials.
+.env
+.env.*
+!.env.example
